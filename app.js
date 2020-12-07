@@ -1,14 +1,19 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+
 const app = express();
 
 const quotesRoutes = require("./routes");
 app.use(quotesRoutes);
+app.use(bodyParser.json());
 
-app.get("/",(req,res) => {
-    return res.json({message:"go to /quotes"});
+const usersRouter = require("./quotes");
+app.use(usersRouter);
+
+app.get("/", (req, res) => {
+    return res.json("Start with /users");
 });
 
-
-app.listen(3000, () => {
-    console.log("go to http://localhost:3000");
+app.listen(3000, ()=>{
+    console.log("Go to http://localhost:3000");
 });
