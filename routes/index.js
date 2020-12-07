@@ -1,7 +1,7 @@
 const express = require("express");
 const admin = require("firebase-admin");
 
-const serviceaccount = require("./../ServiceApplication.json");
+const serviceaccount = require("../ServiceApplication.json");
 
 const router = express.Router();
 

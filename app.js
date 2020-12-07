@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-const usersRouter = require("./quotes");
+const usersRouter = require("./routes");
 app.use(usersRouter);
 
 app.get("/", (req, res) => {
