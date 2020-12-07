@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digital-quotes",
+  "private_key_id": "f5bf4482327ae6de29aae7ecf49617768682412b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPbJrtvuLjjpNc\nM2onIZ8Lv8DAWVXRrHSRhnsaznuUd41DuStAGBDa/DfXMcbZmD/x9/XkTBpyXkQ0\ngqpUjGdkweYxFNQUhdxc1Sb7495+hi8oDt4IId5ZM4pVPEBQwY0mUQahe7gdJmCV\n6KhCP/bHisWopB2aievx2cD8P1XP4tSkENXTDuxrtvsF2tyOdWj8guiLtvdsddsz\ntuwx4lcOjF27Fajmdk8sV3LV0NQbetEh8LRMzV+uG0aD29lWlV4dXs90+xqj76wz\npOUJt/m4k7M462hEIK/xHpBClEZpU6Ekzqj6hLmD2FxcZG2uRJ/QJR4U34khzQ4e\nA/i/hZy9AgMBAAECggEAQCsukL89bL12XA8x11JA5D8Zj8fzUy7BTyXl3qijNY54\nnsthlG39hOmDEuk8xaMioSYfJVXf1qLQAdisfgSDlfmgT23MoF67CeMNMN7RPZ4g\nZ4mV6bkkkr7tnCnMEc+W7ZQic4GVNztgpO+5Yels3FVTibTfzae+XO8LE146m1lX\n7FtFOObGbAnf5U1ipmU5EzA+QDEvWsSgUN/UeOpq3i8TqolCiC3heVWdrXSs3dWD\nZC/FoC0Eoo3cJ1gtFkJ+xlbBk9tVTBnpBjs9GKKGdP2v8LDoi/VEA4YV/MtsPZm8\nZ+ifYhGbraWGRW25J/UbctUn5Y4cpfykqL8KtVu71wKBgQDp7QP22qhUVRB21UjY\nFd1XbE33cq5pMAp/rFUfhpKet5i3hRp6YXwEHGrmNHzdVs4O3p6Y1J5yZXieKayd\n6Rw7QDTPxqTgdYJVC48d0CNkRouAe92CbIUerSeOrC5rq8hqWdZI03KOrCOUMCLd\n3R2OC78sv1PkQRyMBOaQIrbx8wKBgQDi/2LdNolqGRvh4kgDUyaxoHQOnqzahvE/\n/w5YYwZjDsJhvB8xNBEiCqnzHSdP1j122pLqjEh/k2RN6tNSwZqVeOUiQGDbZMA4\nc/Y+xq6mgp2I976+jlGBgpEYkdDFRLaBLMa5Rpf4J+O0Kp1c9e/qy664WOKYYeA4\n/0puAWEyjwKBgQCaq+nUHg3w/PHO8QWiQwrAVE9VDxH9YROACa2bE7r8kP68UZkJ\nVE3Q1g1ku03YeB31PQN2oBdIIonXYkzNeKX/E1wYCgtYkroji2oM12OfWPnCcaQs\nKZ73gpxGPNjQvpvcnhwOuSjk5zL7N7zGH/77vg6hArzwjpDWkCL3KMz4OwKBgQCW\nA68jgHo5ytQ5aKCsydQFiYOJceXMGWfwIjApy2+aIVPm4Ts/+ifkdmWwTDEBuxUt\nqe9z4De9T/v23lzAEUCGzbmn9CHOe/vokwJGpGkhk6pmrUu6hTVqQI6BTURKSknO\nfnfqU7P1BO+fzpXmrIXchrU2EU/W4sAbCuP2ZSUGEwKBgHBI2t/0yWrogkii9Tis\naNgvJ0ujaFrts6HuQamkyhX9C+YIlT5HPzikO/xf7mZn82ZC67P4UD6gUlxA4Z1Q\nH/eIFbg8YqDF4HxTaIoqrEbd8fUlkz/9n9nKsg/KS/lIDy24cQ6vX9+tCH6VrIty\nxjKrJIaWm4u11+087ezMvUWX\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ohcxq@digital-quotes.iam.gserviceaccount.com",
+  "client_id": "117080708609207636114",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ohcxq%40digital-quotes.iam.gserviceaccount.com"
+}
