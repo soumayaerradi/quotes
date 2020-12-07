@@ -14,14 +14,6 @@ const db = admin.firestore();
 router.delete("/quotes/:id", async (req, res) => {
     try {
 
-        if(!req.body.quote){
-            return res.status(400).json({message: "You have to pass a quote"});
-        }
-
-        if(!req.body.author){
-            return res.status(400).json({message: "You have to pass a author"});
-        }
-
         const q = await db.collection('quotes').doc(req.params.id).get();
         if(!q.data()){
             return res.status(404).json({message: "quote not found"});
