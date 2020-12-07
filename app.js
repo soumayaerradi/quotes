@@ -5,11 +5,11 @@ const app = express();
 
 app.use(bodyParser.json());
 
-const usersRouter = require("./quotes");
+const usersRouter = require("./routes");
 app.use(usersRouter);
 
 app.get("/", (req, res) => {
-    return res.json("Start with /users");
+    return res.json("Start with /quotes");
 });
 
 app.listen(3000, ()=>{
