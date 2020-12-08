@@ -1,12 +1,11 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-
 const app = express();
 
 app.use(bodyParser.json());
 
-const usersRouter = require("./routes");
-app.use(usersRouter);
+const userRoutes = require("./routes");
+app.use(userRoutes);
 
 app.get("/", (req, res) => {
     return res.json("Start with /quotes");
