@@ -18,6 +18,10 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
+function genId() {
+    return quotes.length > 0 ? Math.max(...quotes.map(quote => quote.id)) + 1 : 1
+}
+
 router.get("/quotes", async (req, res) => {
     try {
         await updateQuotes();
@@ -36,6 +40,26 @@ router.get("/quotes/:id", async (req,res) => {
         return res.status(200).json(quote.data());
     }catch(error){
         return res.status(500).send(error);
+    }
+});
+
+router.post("/quotes", async(req,res) =>{
+    try{
+        let list = await db.collection('quotes').get();
+        list.forEach(doc => quotes.push(doc.data()));
+        if(!req.body.author || !req.body.quote){
+            return res.status(400).json ({message: "Bad request: missing quote or author in the request body!"});
+        }
+        const newId = genId();
+        let newQuote = {
+            id: newId,
+            quote: req.body.quote,
+            author: req.body.author
+        }
+        db.collection('quotes').doc(newId.toString()).set(newQuote);
+        return res.status(201).json({ message: "Created" });
+    } catch (error) {
+        return res.status(500).send({error:error.toString()});
     }
 });
 
